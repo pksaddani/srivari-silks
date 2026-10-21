@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover elegant silk sarees for weddings, festivals and special occasions at Srivari Silks." />
+  <title>SRIVARI SILKS | Tradition in Every Thread</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">✦  A little tradition, delivered with love  ✦</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Srivari Silks home">
+      <span class="brand-mark">❋</span>
+      <span class="brand-name">SRIVARI SILKS</span>
+      <span class="brand-tagline">TRADITION IN EVERY THREAD</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#collection">Shop Sarees</a><a href="#story">Our Story</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" id="cartOpen" aria-label="Open shopping cart">Bag <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">TIMELESS • GRACEFUL • HANDPICKED</p>
+        <h1>Every saree tells<br><em>a beautiful story.</em></h1>
+        <p class="hero-text">Celebrate life's special moments with colours, craftsmanship and timeless Indian elegance.</p>
+        <a class="button button-gold" href="#collection">Explore the collection <span>→</span></a>
+        <div class="hero-note"><span>✧</span> Made for moments that matter</div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Elegant silk saree in jewel tones">
+        <div class="art-orbit"></div><div class="art-sun"></div>
+        <div class="fabric fabric-one"></div><div class="fabric fabric-two"></div>
+        <div class="hero-art-label"><span>THE SILK EDIT</span><b>Tradition, reimagined.</b></div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Shopping benefits">
+      <div><span class="benefit-icon">✧</span><strong>Thoughtfully Chosen</strong><small>Sarees for every occasion</small></div>
+      <div><span class="benefit-icon">♧</span><strong>Personal Assistance</strong><small>We’re happy to help</small></div>
+      <div><span class="benefit-icon">♡</span><strong>Gift-Worthy Elegance</strong><small>Make every moment special</small></div>
+    </section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow">FIND YOUR FAVOURITE</p><h2>The Saree Collection</h2><p class="muted">A little colour, a little tradition, a lot of you.</p></div>
+        <div class="filters" aria-label="Filter products">
+          <button class="filter active" data-filter="all">All sarees</button>
+          <button class="filter" data-filter="classic">Classics</button>
+          <button class="filter" data-filter="festive">Festive</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="classic">
+          <div class="product-image image-rose"><span class="product-badge">Bestseller</span><span class="saree-shape">✦</span></div>
+          <div class="product-info"><div><h3>Ruby Kanchipuram Silk</h3><p>Rich ruby · Antique gold</p></div><strong>₹5,999</strong></div>
+          <button class="add-button" data-product="Ruby Kanchipuram Silk" data-price="5999">Add to bag <span>＋</span></button>
+        </article>
+        <article class="product-card" data-category="festive">
+          <div class="product-image image-green"><span class="saree-shape">✧</span></div>
+          <div class="product-info"><div><h3>Emerald Banarasi Silk</h3><p>Emerald green · Gold</p></div><strong>₹4,999</strong></div>
+          <button class="add-button" data-product="Emerald Banarasi Silk" data-price="4999">Add to bag <span>＋</span></button>
+        </article>
+        <article class="product-card" data-category="classic">
+          <div class="product-image image-violet"><span class="saree-shape">✦</span></div>
+          <div class="product-info"><div><h3>Royal Violet Tissue Silk</h3><p>Royal violet · Gold</p></div><strong>₹4,499</strong></div>
+          <button class="add-button" data-product="Royal Violet Tissue Silk" data-price="4499">Add to bag <span>＋</span></button>
+        </article>
+        <article class="product-card" data-category="festive">
+          <div class="product-image image-gold"><span class="product-badge">Festive pick</span><span class="saree-shape">✧</span></div>
+          <div class="product-info"><div><h3>Marigold Soft Silk</h3><p>Marigold · Rose gold</p></div><strong>₹3,999</strong></div>
+          <button class="add-button" data-product="Marigold Soft Silk" data-price="3999">Add to bag <span>＋</span></button>
+        </article>
+      </div>
+      <p class="demo-note">Sample catalogue for your launch. Replace product names, prices and photos with your actual stock before publishing.</p>
+    </section>
+
+    <section class="story section-wrap" id="story">
+      <div class="story-art"><div class="story-pattern">✺<br>❋<br>✺</div><span>ROOTED IN<br>TRADITION</span></div>
+      <div class="story-copy"><p class="eyebrow">OUR LITTLE PROMISE</p><h2>Tradition in every thread.</h2><p>At Srivari Silks, we believe a saree is more than an outfit. It carries memories, celebrates milestones and brings generations together. We’re here to help you find the one that feels just right.</p><a href="#contact" class="text-link">Let’s find your saree <span>→</span></a></div>
+    </section>
+
+    <section class="contact-strip" id="contact">
+      <div><p class="eyebrow">NEED A HAND?</p><h2>We’d love to help you choose.</h2><p>Ask about colours, availability, delivery or gifting.</p></div>
+      <a class="button button-dark" href="#" id="contactWhatsApp">Chat on WhatsApp ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-brand" href="#">SRIVARI SILKS <small>TRADITION IN EVERY THREAD</small></a>
+    <div class="footer-links"><a href="#collection">Shop</a><a href="#story">Our Story</a><a href="#contact">Contact</a></div>
+    <p>© <span id="year"></span> Srivari Silks. Made with care.</p>
+    <small class="disclaimer">Product listings and prices are illustrative until you update them with your real inventory.</small>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="cart-head"><h2>Your bag <span id="drawerCount">(0)</span></h2><button id="cartClose" aria-label="Close bag">×</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">Your bag is waiting for something beautiful.</p></div>
+    <div class="cart-bottom"><div class="cart-total"><span>Subtotal</span><strong id="cartTotal">₹0</strong></div><button class="button button-dark checkout" id="checkout">Order on WhatsApp ↗</button><small>Order details will be sent to your WhatsApp for confirmation. No online payment is collected on this demo site.</small></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
